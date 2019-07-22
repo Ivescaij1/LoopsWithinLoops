@@ -62,7 +62,9 @@ def rectangle_of_stars(r, c):
     #   would defeat the goal of providing practice at loops within loops.
     # ------------------------------------------------------------------
     for i in range(r):
-        print('*' * c)
+        for j in range(c):
+            print('*', end='')
+        print()
 
 
 def run_test_triangle_of_stars():
