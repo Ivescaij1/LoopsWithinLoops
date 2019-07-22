@@ -61,8 +61,8 @@ def rectangle_of_stars(r, c):
     #   in this or the other problems in this module, as doing so
     #   would defeat the goal of providing practice at loops within loops.
     # ------------------------------------------------------------------
-    for i in range(r):
-        for j in range(c):
+    for _ in range(r):
+        for _ in range(c):
             print('*', end='')
         print()
 
@@ -121,7 +121,7 @@ def triangle_of_stars(r):
     #   would defeat the goal of providing practice at loops within loops.
     # ------------------------------------------------------------------
     for k in range(r):
-        for j in range(k + 1):
+        for _ in range(k + 1):
             print('*', end='')
         print()
 
