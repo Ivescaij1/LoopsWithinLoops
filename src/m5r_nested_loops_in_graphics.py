@@ -108,7 +108,7 @@ def rectangle_of_circles(window, circle, m, n):
 
 
 # ----------------------------------------------------------------------
-# TODO: 3.
+# DONE: 3.
 #  *** Unless your instructor directs you otherwise,
 #      watch the video
 #          nested_loops_in_GRAPHICS.mp4
